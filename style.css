@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin: 51px 0 178px 50px;
+}
+
+.link-header {
+    color: #17233d;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    color: #4c5bff;
+}
+
+.link-header:active {
+    color: #17233d;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    background-color: #6fbf44;
+    border: 1px solid #4cb538;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #92f75c;
+}
+
+button:active {
+    background-color: #6fbf44;
+}
+
+figure {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    color: #161a49;
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 82px;
+    max-width: 582px;
+}
+
+p {
+    color: #4b505a;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+    max-width: 493px;
+    margin: 47px 0 55px 0;
+}
+
+.link-main {
+    color: #6fbf44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.link-main:hover {
+    color: #93ff58;
+}
+
+.link-main:active {
+    color: #6fbf44;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        padding: auto;
+    }
+
+    figure {
+        display: block;
+        position: absolute;
+        bottom: 20%;
+    }
+
+    img {
+        width: 312px;
+        height: 288px;
+    }
+
+    section {
+        display: block;
+        position: absolute;
+        top: 10%;
+        height: auto;
+    }
+
+    h1 {
+        width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+
+    p {
+        width: 304px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    .link-main {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
